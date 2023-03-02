@@ -83,5 +83,4 @@ startRoom: Room 'Void' "This is a featureless void. ";
 +rock: Rock 'ordinary rock' 'rock' "An ordinary rock. ";
 +stone: Thing 'nondescript stone' 'stone' "A nondescript stone. ";
 
-versionInfo: GameID;
 gameMain:       GameMainDef initialPlayerChar = me;
