@@ -1,4 +1,19 @@
 #charset "us-ascii"
+//
+// nounAsVerb.t
+//
+// This module provides a couple macros to make it easier to implement
+// actions that are called by typing bare noun phrases on the command
+// line.
+//
+// Example:
+//
+//	DefineNounAsVerb(NounAsExamine, Thing);
+//	modify Thing dobjFor(NounAsExamine) asDobjFor(Examine);
+//
+// Then an object name typed by itself on the command line would be
+// interpreted the same as >X [object name].
+//
 #include <adv3.h>
 #include <en_us.h>
 
