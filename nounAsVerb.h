@@ -20,3 +20,8 @@
 	nounAsVerbClass = cls
 
 #endif // DefineNounAsVerb
+
+// Don't comment out, used for dependency checking.
+#ifndef NOUN_AS_VERB_H
+#define NOUN_AS_VERB_H
+#endif // NOUN_AS_VERB_H
